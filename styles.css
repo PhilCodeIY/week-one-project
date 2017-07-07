@@ -1,3 +1,319 @@
-<style>
+
 @import url('https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700|Roboto:300,300i,400,400i');
-</style>
+
+
+
+body{
+    font-family: "Merriweather", "Roboto";
+    line-height: 1.5;
+    align-content: center;
+    background-color: #F2F1E8;
+    color:#131511;
+    text-align: justify;
+    }
+
+ main{
+ 	font-family: "Merriweather", "Roboto";
+    width: 700px;
+    justify-content: center;
+    padding-top: 45px;
+    margin:auto;
+
+ }
+ul {
+    list-style-type: none;
+
+}
+
+a{
+	text-decoration: none;
+
+}
+
+li{
+	display: inline-block;
+    justify-content: space-around;
+    padding: 0px 50px 0px 50px;
+
+
+}
+
+#main-navigation{
+	
+	text-transform: uppercase;
+ 	 font-family: "Merriweather", "Roboto";
+ 	 background-color: white;
+ 	 padding: 10px 0px 10px 5px;
+ 	color: #2B2F26; 	
+	line-height: 5px;
+	width: 1260px;
+	display:flex;
+	align-content: center;
+    justify-content: space-around;
+    position: fixed;
+
+    background-image:url("./images/bent-creek-logo.png");
+    background-attachment: fixed;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 10%;
+    z-index: 100;
+    
+
+    }
+
+a:hover { 
+    background-color: #CD5D67;
+}
+a:active { 
+    background-color: #968772;
+}
+
+.logopic img{
+	justify-content: center;
+
+}
+
+.logo-nav{
+
+    }
+
+
+.text{
+	position:absolute;
+	text-align: center;
+	color: red;
+	font-size: 2em;
+	z-index: 0;
+}
+
+img{
+    max-width: 10%;
+    padding: 5px 5px;
+    margin: 0;
+    display: block;
+}
+
+/* Creates the parallax scrolling effect */
+.grow-container {
+	width: 1260px;
+	height: 400px;
+
+	background-image:url("./images/background-3.jpg");
+	
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+	color:white;
+	text-align: center;
+	padding: 100px 0px ;
+			
+}
+
+
+.birdhouse-container img{
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+th{
+	text-align: center;
+	 padding: 7px 7px;
+
+    background: #F2F1E8;
+}
+
+th:nth-child(even) {
+    background: #F2F1E8;
+}
+
+table {
+    border-collapse: collapse;
+
+}
+table, th, td {
+   border: 1px solid black;
+}
+
+td{
+	   padding: 7px 7px;
+}
+tr:nth-child(odd) {
+    background: white;
+}
+
+tr:nth-child(even) {
+    background: #F2F1E8;
+}
+
+
+.under {
+    float: right;
+    width: 150px;
+    font-size: 10px;
+   
+}
+
+
+#site-footer{
+    
+    background: #333;
+	color: white;
+	text-align: left;
+	margin-top: 20px;
+	text-indent: 20px;
+	line-height: 60px;
+	width: 100%;
+}
+
+form{
+    background-color: white;
+    margin:auto;
+    position:relative;
+    top:100px;
+    color: black;
+    width:600px;
+    padding:20px;
+  
+}
+
+.bkg-news{
+	height: 540px;
+	background-image:url("./images/background-2.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+	background-repeat: no-repeat;
+    background-position: center;
+	text-align: center;
+}
+
+.lName{
+    width:300px;
+    border-bottom: 2px solid #968772;
+    text-align: left;
+
+    padding-bottom: 3px;
+}
+#nameInput[type=text]{
+    width: 450px;
+    background-color: white;
+    border: none;
+    border-bottom: 0px solid #968772;
+
+}
+
+.lEmail{
+    width: 300px;
+    border-bottom: 2px solid #968772;
+    text-align: left;
+    padding-bottom: 3px;
+
+} 
+
+#emailInput[type=email]{
+    width: 450px;
+
+    background-color: white;
+    border: none;
+    border-bottom: 0px solid #968772;
+}
+
+
+#signupButton{
+background-color: #968772;
+color:#F2F1E8;
+text-align: center;
+float: center;
+padding: 15px 32px;
+border: none;
+}  
+
+
+button:hover { 
+    background-color: #967343;
+}
+
+
+#image1{ 
+    background-image:url("./images/product-1.jpg");
+    color:white;
+
+    width:500px;
+    height: 300px;
+    border:10px solid #F2F1E8;
+    display: flex;  
+    flex-flow: row nowrap;
+}
+
+
+#image2{
+    background-image:url("./images/product-2.jpg");
+    color:white;
+    display:inline-block;
+    border:10px solid #F2F1E8;
+    width:200px;
+    height: 300px;
+
+}
+#image3{
+    background-image:url("./images/product-3.jpg");
+    color:white;
+    display:inline-block;
+    border:10px solid #F2F1E8;
+    width:200px;
+    height: 300px;
+}
+#image4{
+    background-image:url("./images/product-4.jpg");
+    color:white;
+    display:inline-block;
+    border:10px solid #F2F1E8;
+    width:100px;
+    height: 150px;
+}
+
+#image5{
+    background-image:url("./images/product-5.jpg");
+    color:white;
+    display:inline-block;
+    border:10px solid #F2F1E8;
+    width:100px;
+    height: 150px;
+}
+#image6{
+    background-image:url("./images/product-6.jpg");
+    color:white;
+    display:inline-block;
+    border:10px solid #F2F1E8;
+    width:300px;
+    height: 150px;
+}
+#image7{
+    background-image:url("./images/product-7.jpg");
+    color:white;
+    display:inline-block;
+    border:10px solid #F2F1E8;
+    width:100px;
+    height: 150px;
+}
+
+.home-title{
+    text-align: center;
+
+
+}
+
+    /*background-repeat: no-repeat;
+ width: 100px;
+ height: 100px;
+    border:2px solid black;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: left;*/
+}
+
