@@ -25,10 +25,7 @@ ul {
 
 }
 
-a{
-	text-decoration: none;
 
-}
 
 li{
 	display: inline-block;
@@ -52,7 +49,7 @@ li{
     justify-content: space-around;
     position: fixed;
 
-    background-image:url("./images/bent-creek-logo.png");
+
     background-attachment: fixed;
     background-position: left;
     background-repeat: no-repeat;
@@ -69,8 +66,11 @@ a:active {
     background-color: #968772;
 }
 
-.logopic img{
-	justify-content: center;
+.logopic {
+ position: absolute;
+ top: 5px;
+ left:5px;
+ width:50px;
 
 }
 
@@ -94,6 +94,30 @@ img{
     display: block;
 }
 
+.under img {
+    max-width: 100px;
+    padding: 55px 0px 5px 10px;
+}
+
+.under p {
+   
+    padding-left: 10px;
+    max-width: 100px;
+    font-size: 9px;
+}
+h1{
+    font-family: "Merriweather", "Roboto";
+}
+h2{
+    font-family: "Merriweather", "Roboto";
+}
+h3{
+    font-family: "Merriweather", "Roboto";
+}
+h5{
+    font-family: "Merriweather", "Roboto";
+}
+
 /* Creates the parallax scrolling effect */
 .grow-container {
 	width: 1260px;
@@ -112,6 +136,9 @@ img{
 			
 }
 
+.lower{
+    max-width: 500px;
+}
 
 .birdhouse-container img{
     float: left;
@@ -236,74 +263,104 @@ button:hover {
     background-color: #967343;
 }
 
+.row1-img{
+padding-left: 180px;
+}
+.row2-img{
+padding-left: 180px;
+}
 
 #image1{ 
     background-image:url("./images/product-1.jpg");
+    background-size: cover;
+    
     color:white;
 
     width:500px;
-    height: 300px;
-    border:10px solid #F2F1E8;
-    display: flex;  
+    height: 250px;
+    border:9px solid #F2F1E8;
+    display: inline-block;  
     flex-flow: row nowrap;
 }
 
 
 #image2{
     background-image:url("./images/product-2.jpg");
+    background-size: cover;
     color:white;
     display:inline-block;
-    border:10px solid #F2F1E8;
+    border:9px solid #F2F1E8;
     width:200px;
-    height: 300px;
+    height: 250px;
 
 }
 #image3{
     background-image:url("./images/product-3.jpg");
+    background-size: cover;
     color:white;
     display:inline-block;
-    border:10px solid #F2F1E8;
+    border:9px solid #F2F1E8;
     width:200px;
-    height: 300px;
+    height: 250px;
 }
 #image4{
     background-image:url("./images/product-4.jpg");
+    background-size: cover;
     color:white;
     display:inline-block;
-    border:10px solid #F2F1E8;
-    width:100px;
-    height: 150px;
+    border:9px solid #F2F1E8;
+    width: 200px;
+    height: 170px;
 }
+
 
 #image5{
     background-image:url("./images/product-5.jpg");
+    background-size: cover;
     color:white;
     display:inline-block;
-    border:10px solid #F2F1E8;
-    width:100px;
-    height: 150px;
+    border:9px solid #F2F1E8;
+    width:200px;
+    height: 170px;
 }
 #image6{
     background-image:url("./images/product-6.jpg");
+    background-size: cover;
     color:white;
     display:inline-block;
-    border:10px solid #F2F1E8;
-    width:300px;
-    height: 150px;
+    border:9px solid #F2F1E8;
+    width:295px;
+    height: 170px;
 }
 #image7{
     background-image:url("./images/product-7.jpg");
+    background-size: cover;
     color:white;
     display:inline-block;
-    border:10px solid #F2F1E8;
-    width:100px;
-    height: 150px;
+    border:9px solid #F2F1E8;
+    width:200px;
+    height: 170px;
 }
 
 .home-title{
     text-align: center;
 
+}
 
+.image-container {
+    position: relative;
+
+}
+
+.image-container p {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: #333300;
+    padding: 7px 7px;
+    color:#F2F1E8;
+    font-size: 12px;
+    font-family: "Merriweather", "Roboto";
 }
 
     /*background-repeat: no-repeat;
